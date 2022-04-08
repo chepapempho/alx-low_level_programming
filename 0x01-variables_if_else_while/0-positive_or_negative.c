@@ -5,7 +5,8 @@
 
 /* betty style doc for function main goes there */
 /**
-*main - task 0
+ *main - task 0
+ *Return: 0 on success
 */
 
 int main(void)
