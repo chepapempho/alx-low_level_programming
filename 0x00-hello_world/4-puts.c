@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * task 4
- * return 0 after printing text.
+ *main - task 4
+ *
+ *Return: 0 after printing text.
 **/
 
 int main(void)
