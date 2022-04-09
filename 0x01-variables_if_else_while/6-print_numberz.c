@@ -8,11 +8,9 @@
  *main - task 6
  *Return: 0 on success
 */
-
 int main(void)
 {
 int n;
-if (n % 10 > 5)
 for(n = 48; n <= 57; n++)
 {
 putchar (n);
