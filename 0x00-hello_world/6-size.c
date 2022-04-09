@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *task 6
+ *main - task 6
  *printing various types and return 0 on success
+ *Return: 0
 */
 
 int main(void)

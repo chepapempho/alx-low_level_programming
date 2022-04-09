@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *task 5
- *return 1
+ *main - task 5
+ *
+ *Return: 1
 **/
 
 int main(void)
