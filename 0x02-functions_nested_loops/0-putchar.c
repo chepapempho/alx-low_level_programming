@@ -1,11 +1,9 @@
 #include "main.h"
 
-
 /**
- *  * main - Entry point
- *   *
- *    * Return: nothing, return void
- *     */
+ *  * main - Task 0
+ * Return: 0 on success
+*/
 
 int main(void)
 {
