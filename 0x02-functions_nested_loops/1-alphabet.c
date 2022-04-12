@@ -1,7 +1,7 @@
 #include "main.h"
 /* 
  * *main - task 1
- * * Return: 0 on success
+ * * Return: void functio. returns nothing
  * */
 void print_alphabet(void)
 {
@@ -11,5 +11,4 @@ for(alphabet = 'a'; alphabet <= 'z'; alphabet++)
 _putchar(alphabet);
 }
 _putchar('\n');
-return (0);
 }
