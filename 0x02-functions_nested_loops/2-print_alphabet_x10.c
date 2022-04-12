@@ -1,8 +1,8 @@
 #include "main.h"
-/*
-*2-print_alphabet_x10.c - - print lowercase a to z 10 times
-*main - task 2
-*Return: void function returns nothing
+/**
+* print_alphabet_x10 - print lowercase a to z 10 times
+* main - task 2
+* Return: void function returns nothing
 */
 void print_alphabet_x10(void)
 {
