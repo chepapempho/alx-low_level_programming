@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isdigit - if is a digit
+ * _isdigit - check digit or not
  *@c: print int
  * Return: Always 0.
  */
