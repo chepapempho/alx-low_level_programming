@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isupper - check if lower or uppercase .
+ * _isupper - check case of letter
  *@c: print int
  * Return: Always 0.
  */
@@ -18,3 +18,4 @@ return (0);
 }
 
 }
+
