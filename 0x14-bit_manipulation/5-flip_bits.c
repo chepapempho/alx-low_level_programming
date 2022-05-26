@@ -1,25 +1,24 @@
 #include <stdlib.h>
 #include "main.h"
 
+
 /**
-  * flip_bits - flip bits 
-  * @n: input 1
-  * @m: input 2
-  *
-  * Return: count
-  */
+ * flip_bits - returns the number of bits to flip from one num to another.
+ *@n: first number
+ *@m: second number
+ * Return: difference in bits.
+ */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int mask = 0, count = 0;
+	unsigned int i;
+	unsigned int opp;
 
-	mask = n ^ m;
-	while (mask)
+	opp = n ^ m;
+	i = 0;
+	while (opp != 0)
 	{
-		if (mask & 1)
-			count++;
-
-		mask >>= 1;
+		i = i + (opp & 1);
+		opp = opp >> 1;
 	}
-
-	return (count);
+	return (i);
 }
